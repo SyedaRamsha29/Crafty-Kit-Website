@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <title>Crafty Kit</title>
+</head>
+<body>
+    <section class="sec-1">
+        <header>
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+            class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+        <div class="nav-collapsed">
+            <?xml version="1.0" encoding="UTF-8"?><svg class="close-btn" width="45" height="45" viewBox="0 0 48 48"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="48" height="48" fill="white" fill-opacity="0.01" />
+                <path d="M14 14L34 34" stroke="#333" stroke-width="1" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M14 34L34 14" stroke="#333" stroke-width="1" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            <ul>
+                <li><a href="CraftyKit.html">HOME</a></li>
+                <hr>
+                <li><a href="art_supplies.html">ART SUPPLIES</a></li>
+                <hr>
+                <li><a href="stationery_items.html">STATIONERY ITEMS</a></li>
+                <hr>
+                <li><a href="note-it.html">NOTE-IT</a></li>
+                <hr>
+                <li><a href="bagpacks.html">BAGPACKS</a></li>
+                <hr>
+                <li><a href="bookmarks.html">BOOKMARKS</a></li>
+                <hr>
+                <li><a href="greeting_cards.html">GREETING CARDS</a></li>
+                <hr>
+                <li><a href="#footer">CONTACT US </a></li>
+                <hr>
+                <li><a href="#footer">ABOUT US </a></li>
+                <hr>
+                
+            </ul>
+        </div>
+        <div class="ck">Crafty Kit</div>
+        <nav>
+            <ul class="nav_links">
+                <li>
+                    <a href="http://localhost/craftykit/add_to_cart.php">
+                    <img id="nav_icons" src="images/cart.png" alt="" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+    </section>
+
+    <section>
+        <hr>
+        <h5 class="cat-title">ART SUPPLIES</h5>
+        <hr>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row-1">
+                <div class="items">
+                    <img src="art_supplies/acrylic-paints.jpg" alt="">
+                    <figcaption>ACRYLIC PAINTS</figcaption>
+                    <p>$59.99</p>
+                    <div id="form-container">
+                        <form action="http://localhost/craftykit/add_to_cart.php" method="POST">
+                            <div class="QTY">
+                                <input type="hidden" name="item_id" value="1">
+                                <button type="button" class="decrement">-</button>
+                                <input type="number" name="quantity" value="1" min="1" class="quantity">
+                                <button type="button" class="increment">+</button>
+                            </div>
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="items">
+                    <img src="art_supplies/canvas.jpg" alt="">
+                    <figcaption>CANVAS</figcaption>
+                    <p>$45.99</p>
+                    <div id="form-container">
+                        <form action="http://localhost/craftykit/add_to_cart.php" method="POST">
+                            <div class="QTY">
+                                <input type="hidden" name="item_id" value="2">
+                                <button type="button" class="decrement">-</button>
+                                <input type="number" name="quantity" value="1" min="1" class="quantity">
+                                <button type="button" class="increment">+</button>
+                            </div>
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="items">
+                    <img src="art_supplies/pastels.jpg" alt="">
+                    <figcaption>OIL PASTELS</figcaption>
+                    <p>$30.99</p>
+                    <div id="form-container">
+                        <form action="http://localhost/craftykit/add_to_cart.php" method="POST">
+                            <div class="QTY">
+                                <input type="hidden" name="item_id" value="3">
+                                <button type="button" class="decrement">-</button>
+                                <input type="number" name="quantity" value="1" min="1" class="quantity">
+                                <button type="button" class="increment">+</button>
+                            </div>
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="items">
+                    <img src="art_supplies/sketchbook.jpg" alt="">
+                    <figcaption>SKETCHBOOK</figcaption>
+                    <p>$20.99</p>
+                    <div id="form-container">
+                        <form action="http://localhost/craftykit/add_to_cart.php" method="POST">
+                            <div class="QTY">
+                                <input type="hidden" name="item_id" value="4">
+                                <button type="button" class="decrement">-</button>
+                                <input type="number" name="quantity" value="1" min="1" class="quantity">
+                                <button type="button" class="increment">+</button>
+                            </div>
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="items">
+                    <img src="art_supplies/paint-brush.jpg" alt="">
+                    <figcaption>PAINT BRUSHES</figcaption>
+                    <p>$15.00</p>
+                    <div id="form-container">
+                        <form action="http://localhost/craftykit/add_to_cart.php" method="POST">
+                            <div class="QTY">
+                                <input type="hidden" name="item_id" value="5">
+                                <button type="button" class="decrement">-</button>
+                                <input type="number" name="quantity" value="1" min="1" class="quantity">
+                                <button type="button" class="increment">+</button>
+                            </div>
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="items">
+                    <img src="art_supplies/palette.jpg" alt="">
+                    <figcaption>COLOR PALETTE</figcaption>
+                    <p>$10.99</p>
+                    <div id="form-container">
+                        <form action="http://localhost/craftykit/add_to_cart.php" method="POST">
+                            <div class="QTY">
+                                <input type="hidden" name="item_id" value="6">
+                                <button type="button" class="decrement">-</button>
+                                <input type="number" name="quantity" value="1" min="1" class="quantity">
+                                <button type="button" class="increment">+</button>
+                            </div>
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <footer>
+            <div>
+                <h5>Contact Us</h5>
+                <p><a href="#" class="fa fa-envelope fa-lg"></a>contact@craftykit.com</p>
+                <p><a href="#" class="fa fa-instagram fa-lg"></a>crafty_kit</p>
+                <p><a href="#" class="fa fa-phone fa-lg"></a>+92 272 389 5481</p>
+            </div>
+            <div id="ck">Crafty Kit</div>
+            <div class="about">
+                <h5>About Us</h5>
+                <p>
+                    A site where you can get <br>variety of cute, affordable <br>and aesthetic stationery <br> arts items
+                </p>
+            </div>
+        </footer>
+    </section>
+    
+    <script>
+              // Activate carousel and set interval to change slide every 5 seconds
+      document.addEventListener("DOMContentLoaded", function() {
+        var myCarousel = document.querySelector("#myCarousel");
+        var carousel = new bootstrap.Carousel(myCarousel, {
+          interval: 3000 // Change slide every 5 seconds (5000 milliseconds)
+        });
+      });
+
+      const nav = document.querySelector('.nav-collapsed')
+      const close = document.querySelector('.close-btn')
+      const menu = document.querySelector('.icon')
+
+      menu.addEventListener('click', () => {
+          nav.classList.add('open-nav')
+      })
+      close.addEventListener('click', () => {
+          nav.classList.remove('open-nav')
+      })
+    </script>
+</body>
+</html>
